@@ -44,7 +44,6 @@ Main page sould include:
 |-- .env
 |-- .gitignore
 |-- requirements.txt
-|-- run.py
 ```
 
    * `api/main.py`: The main entry point of the API. This file will initialize the FastAPI app and define the routes.
@@ -57,4 +56,3 @@ Main page sould include:
    * `.env`: The environment file. This file will contain environment variables used by the API.
    * `.gitignore`: The Git ignore file. This file will specify what files and directories should be ignored by Git.
    * `requirements.txt`: The requirements file. This file will list the dependencies required by the API.
-   * `run.py`: The run script. This file will be used to run the API using Gunicorn.
